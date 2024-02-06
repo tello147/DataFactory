@@ -1,0 +1,30 @@
+{
+	"name": "pl_capa_oro",
+	"properties": {
+		"activities": [
+			{
+				"name": "Notebook1",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/tellos_29@hotmail.com/Transferir_DATOS_Capa_Oro"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks_DAtafactory5",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2024-02-06T18:59:11Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

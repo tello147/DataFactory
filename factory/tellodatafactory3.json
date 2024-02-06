@@ -1,0 +1,9 @@
+{
+	"name": "tellodatafactory3",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "499d1910-8562-4134-891d-bcb98a8d1645",
+		"tenantId": "9714803e-82b9-4885-adbf-c1607c0c9e96"
+	}
+}
